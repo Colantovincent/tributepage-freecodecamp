@@ -1,1 +1,51 @@
-
+body {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url(https://cdn.hswstatic.com/gif/why-is-sky-blue.jpg);
+}
+#main {
+    background-color: #343a40;
+    opacity: 0.9;
+    color: #f8f9fa;
+    max-width: 1500px;
+    width: 75vw;
+    margin: 0.4rem auto;
+    padding: 0 1rem;
+    border-radius: 25px;
+}
+header {
+    text-align: center;
+}
+figure {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    padding: 0;
+    max-width: 1400px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    object-fit: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+figcaption {
+    padding: 0.5rem;
+}
+hr {
+    width: 25vw;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+h3 {
+    color: #e8e9ea;
+    text-align: center;
+    padding: 0.5rem;
+}
