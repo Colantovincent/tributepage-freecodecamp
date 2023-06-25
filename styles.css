@@ -24,9 +24,9 @@ figure {
     justify-content: center;
     align-items: center;
 }
-img {
+#image {
     padding: 0;
-    max-width: 1400px;
+    max-width: 100%;
     width: 100%;
     height: auto;
     margin: 0 auto;
